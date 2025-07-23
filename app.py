@@ -2,7 +2,7 @@ import os
 import logging
 from flask import Flask, render_template, request, flash, redirect, url_for, send_file, jsonify
 from werkzeug.middleware.proxy_fix import ProxyFix
-from utils.downloader import TikTokDownloader
+from downloader import TikTokDownloader
 import tempfile
 import threading
 import time
